@@ -6,7 +6,7 @@ use solana_sdk::pubkey;
 pub const ID: Pubkey = pubkey!("TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb");
 
 pub fn add_program(mollusk: &mut Mollusk) {
-    mollusk.add_program_with_elf_and_loader(&ID, &include_bytes!("elf/token_2022.so"), loader_key);
+    mollusk.add_program_with_elf_and_loader(&ID, include_bytes!("elf/token_2022.so"), loader_key);
 }
 
 pub fn account() -> AccountSharedData {
