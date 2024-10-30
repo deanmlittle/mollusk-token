@@ -13,7 +13,7 @@ pub fn add_program(mollusk: &mut Mollusk) {
 /// Get the key and account for the system program.
 pub fn keyed_account() -> (Pubkey, AccountSharedData) {
     (
-        &ID,
+        ID,
         mollusk_svm::program::create_program_account_loader_v3(&ID)
     )
 }

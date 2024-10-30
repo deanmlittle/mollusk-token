@@ -15,7 +15,7 @@ pub fn account() -> AccountSharedData {
 /// Get the key and account for the system program.
 pub fn keyed_account() -> (Pubkey, AccountSharedData) {
     (
-        &ID,
+        ID,
         account()
     )
 }
