@@ -1,4 +1,5 @@
 use mollusk_svm::Mollusk;
+use solana_sdk::account::AccountSharedData;
 use solana_sdk::pubkey::Pubkey;
 use solana_sdk::pubkey;
 
