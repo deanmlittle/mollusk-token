@@ -3,8 +3,6 @@ use solana_sdk::account::AccountSharedData;
 use solana_sdk::pubkey::Pubkey;
 use solana_sdk::pubkey;
 
-use crate::elf;
-
 pub const ID: Pubkey = pubkey!("ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL");
 
 pub fn add_program(mollusk: &mut Mollusk) {
